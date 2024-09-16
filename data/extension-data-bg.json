@@ -16,9 +16,7 @@
       "jquery_selector": "account-experience-header",
       "content_type": "video",
       "event": "load"
-    }
-  ],
-  "saascreate_content": [
+    },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
       "target_url": "",
