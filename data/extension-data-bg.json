@@ -96,5 +96,50 @@
         "target_title": "Mastering the SaaS Accelerator (full length course)",
         "content_type": "link"
       }
+    ],
+    "usermanagement_content": [
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/account/v3/usermanagement#users",
+        "target_url": "https://learn.microsoft.com/en-us/partner-center/account-settings/user-roles",
+        "target_title": "Assign User Roles and Permissions",
+        "jquery_selector": "foo",
+        "content_type": "link",
+        "event": "load"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/account/v3/usermanagement#users",
+        "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/role-based-access-control-in-partner-center-mp4",
+        "target_title": "Role Based Access Control in Partner Center",
+        "jquery_selector": "foo",
+        "content_type": "video",
+        "event": "load"
+      }
+    ],
+    "saascreate_content": [
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_url": "",
+        "target_title": "",
+        "jquery_selector": "offerIdInput",
+        "content_type": "bubble",
+        "event": "load",
+        "text": "Some text..."
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_url": "",
+        "target_title": "",
+        "jquery_selector": "foo",
+        "content_type": "",
+        "event": "load"
+      },
+      {
+        "page_url": "",
+        "target_url": "",
+        "target_title": "",
+        "jquery_selector": "foo",
+        "content_type": "",
+        "event": "load"
+      }
     ]
   }
