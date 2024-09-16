@@ -13,7 +13,7 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/account/v3/usermanagement#users",
       "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/role-based-access-control-in-partner-center-mp4",
       "target_title": "Role Based Access Control in Partner Center",
-      "jquery_selector": "foo",
+      "jquery_selector": "account-experience-header",
       "content_type": "video",
       "event": "load"
     }
