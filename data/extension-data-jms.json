@@ -12,11 +12,21 @@
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer-listing#add-logos",
+        "content_type": "bubble",
+        "jquery_selector": "button[data-automation-id='create-new-button']",
+        "color": "#339AC7",
+        "left": 200,
+        "text": "Note: you only have to upload a 256x256 image. We'll resize it for you!",
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",
         "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
         "content_type": "bubble",
         "jquery_selector": "button[data-automation-id='create-new-button']",
         "color": "red",
-        "text": "Should show this stuff now."
+        "text": "Box is red intentionally"
+
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
