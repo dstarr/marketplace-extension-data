@@ -17,7 +17,7 @@
         "jquery_selector": "button[data-automation-id='create-new-button']",
         "color": "#339AC7",
         "left": 200,
-        "text": "Note: you only have to upload a 256x256 image. We'll resize it for you!",
+        "text": "Note: you only have to upload a 256x256 image. We'll resize it for you!"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",
