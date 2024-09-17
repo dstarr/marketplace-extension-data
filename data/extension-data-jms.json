@@ -14,10 +14,10 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",                     
         "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer-listing#add-logos",
         "content_type": "bubble",
-        "jquery_selector": "h2:contains('Marketplace media')",
+        "jquery_selector": "span:contains('Marketplace media')",
         "color": "#339AC7",
         "left": 200,
-        "text": "Note: you only have to upload a 256x256 image. We'll resize it for you!"
+        "text": "Note: you only have to upload a 256x256 png file. We'll resize it for you!"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
