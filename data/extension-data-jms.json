@@ -15,7 +15,7 @@
         "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer-listing#add-logos",
         "content_type": "bubble",
         "jquery_selector": "label:contains('Logos')",
-        "color": "339AC7",
+        "color": "#339AC7",
         "left": 200,
         "position": "relative",
         "text": "Note: you only have to upload a 256x256 png file. We'll resize it for you!"
