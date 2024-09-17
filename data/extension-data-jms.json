@@ -14,7 +14,7 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",                     
         "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer-listing#add-logos",
         "content_type": "bubble",
-        "jquery_selector": "label:contains('Logos')",
+        "jquery_selector": "h5:contains('Logos')",
         "color": "#339AC7",
         "left": 200,
         "position": "relative",
