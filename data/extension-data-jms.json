@@ -18,6 +18,7 @@
         "color": "#339AC7",
         "left": 50,
         "position": "relative",
+        "width": 100,
         "text": "Note: you only have to upload a 256x256 png file. We'll resize it for you!"
       },
       {
