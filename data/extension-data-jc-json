@@ -86,6 +86,14 @@
             "jquery_selector": "#create-new-button",
             "content_type": "diagram",
             "event": "load"
+        },
+        {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/overview",
+            "target_title": "Offer Selection",
+            "target_url": "https://microsoft.github.io/0.03-choose-offer-type.png",
+            "jquery_selector": "#create-new-button",
+            "content_type": "diagram",
+            "event": "modal"
         }
     ],
     "recent_content": [
