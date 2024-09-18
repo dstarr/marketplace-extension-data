@@ -93,7 +93,7 @@
             "target_url": "https://microsoft.github.io/0.03-choose-offer-type.png",
             "jquery_selector": "#create-new-button",
             "content_type": "modal",
-            "event": "modal"
+            "event": "load"
         }
     ],
     "recent_content": [
