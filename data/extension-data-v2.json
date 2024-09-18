@@ -16,6 +16,7 @@
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+      "event": "loading_completed",
       "content": [
         {
           "target_title": "PC Offers overview content 2",
