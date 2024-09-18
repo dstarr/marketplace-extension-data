@@ -19,7 +19,7 @@
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
+            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",            
             "target_title": "Sample video 1",
             "content_type": "video",
             "jquery_selector": "mix-command-bar"
@@ -58,7 +58,7 @@
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
+            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",            
             "target_title": "Sample video 2",
             "content_type": "video",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
@@ -83,6 +83,14 @@
             "page_url": "https://partner.microsoft.com/en-us/dashboard/overview",
             "target_title": "Offer Selection",
             "target_url": "https://microsoft.github.io/0.03-choose-offer-type.png",
+            "jquery_selector": "#create-new-button",
+            "content_type": "diagram",
+            "event": "load"
+        },
+        {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/overview",
+            "target_title": "Offer Selection",
+            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
             "jquery_selector": "#create-new-button",
             "content_type": "diagram",
             "event": "load"
