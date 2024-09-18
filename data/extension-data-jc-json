@@ -49,6 +49,14 @@
             "event": "load"
         },
         {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/overview",
+            "target_title": "Offer Selection",
+            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
+            "jquery_selector": "#create-new-button",
+            "content_type": "modal",
+            "event": "load"
+        },
+        {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
             "target_title": "Mastering the SaaS Accelerator (full course)",
             "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
@@ -83,14 +91,6 @@
             "page_url": "https://partner.microsoft.com/en-us/dashboard/overview",
             "target_title": "Offer Selection",
             "target_url": "https://microsoft.github.io/0.03-choose-offer-type.png",
-            "jquery_selector": "#create-new-button",
-            "content_type": "diagram",
-            "event": "load"
-        },
-        {
-            "page_url": "https://partner.microsoft.com/en-us/dashboard/overview",
-            "target_title": "Offer Selection",
-            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
             "jquery_selector": "#create-new-button",
             "content_type": "diagram",
             "event": "load"
