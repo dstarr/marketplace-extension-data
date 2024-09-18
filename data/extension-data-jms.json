@@ -19,7 +19,7 @@
         "left": -15,
         "position": "relative",
         "width": 325,     
-        "text": "Note: you only have to upload a 256x256 png file. We'll resize it for you!"
+        "text": "Note: you only have to upload a 256x256 png file.\nWe'll resize it for you!\n"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
