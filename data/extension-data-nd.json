@@ -7,7 +7,7 @@
         "target_title": "Is your offer type transactable?",
         "content_type": "bubble",
         "jquery_selector": "button:contains('New offer')",
-        "left": 100,
+        "left": 150,
         "color": "white",
         "text": "Choose carefully. Not all offers are transactable. Those that are, have different pricing models. Learn more here:"
       },
@@ -15,7 +15,7 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",        
         "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "content_type": "bubble",
-        "left": "550px",
+        "left": "650px",
         "top": "60px",
         "jquery_selector": "#partnercenter-breadcrumbs",
         "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
@@ -35,6 +35,7 @@
         "target_title": "Pro Tip",
         "content_type": "bubble",
         "top": 150,
+        "left": -150,
         "color": "white",
         "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
         "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
@@ -71,6 +72,7 @@
         "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-hands-on-tour-mp4",
         "jquery_selector": "#partnercenter-breadcrumbs",
         "content_type": "bubble",
+        "top": "60px",
         "left":500,
         "color": "white",
         "text": "Watch a hands-on tour here"
@@ -80,13 +82,14 @@
         "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/implementing-a-simple-saas-webhook-in-net-mp4",
         "jquery_selector": "label:contains('Connection webhook')",
         "content_type": "bubble",
-        "left":200,
+        "left":150,
+        "top":100,
         "color": "white",
         "text": "Here's a detailed video on how to configure your Connection webhook"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "jquery_selector": "label:contains('Offer ID')",
+        "jquery_selector": "label[for='offerIdInput']:contains('Offer ID')",
         "content_type": "bubble",
         "left":100,
         "color": "white",
@@ -97,7 +100,7 @@
         "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
         "jquery_selector": "span:contains('Co-sell with Microsoft')",
         "content_type": "bubble",
-        "left": 200,
+        "left": 500,
         "color": "white",
         "text": "For more detailed information on Marketplace incentive programs, click here"
       }
