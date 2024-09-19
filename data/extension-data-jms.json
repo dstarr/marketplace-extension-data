@@ -35,8 +35,7 @@
         "content_type": "bubble",
         "left": "100px",
         "top": "155px",
-        "jquery_selector": "span:contains('Plan overview')",
-        //"jquery_selector": "he-button:contains('Create new plan ')",
+        "jquery_selector": "span:contains('Plan overview')",        
         "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "color": "white"
       },
