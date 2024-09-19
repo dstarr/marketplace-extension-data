@@ -34,11 +34,23 @@
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
       "target_title": "Did you know?",
-      "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
       "jquery_selector": "#create-new-button",
       "content_type": "hint",
       "event": "load",
-      "text": "Use this dropdown to create new marketplace offers."
+      "items": [
+        {
+          "text": "1- Use this dropdown to create new marketplace offers.",
+          "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+        },
+        {
+          "text": "2- Use this dropdown to create new marketplace offers.",
+          "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+        },
+        {
+          "text": "3- Use this dropdown to create new marketplace offers.",
+          "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+        }
+      ]
     },
     {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
