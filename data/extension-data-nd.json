@@ -55,6 +55,51 @@
         "content_type": "audio",
         "jquery_selector": "label:contains('Microsoft Entra or Microsoft Account email address')"
         
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
+        "target_title": "Here's a detailed video on how to configure your Landing page",
+        "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/building-a-simple-landing-page-in-net-mp4",
+        "jquery_selector": "label:contains('Landing page URL')",
+        "content_type": "bubble",
+        "left":200,
+        "color": "white",
+        "text": "Here's a detailed video on how to configure your Landing page"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
+        "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-hands-on-tour-mp4",
+        "jquery_selector": "#partnercenter-breadcrumbs",
+        "content_type": "bubble",
+        "left":500,
+        "color": "white",
+        "text": "Watch a hands-on tour here"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
+        "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/implementing-a-simple-saas-webhook-in-net-mp4",
+        "jquery_selector": "label:contains('Connection webhook')",
+        "content_type": "bubble",
+        "left":200,
+        "color": "white",
+        "text": "Here's a detailed video on how to configure your Connection webhook"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "jquery_selector": "label:contains('Offer ID')",
+        "content_type": "bubble",
+        "left":100,
+        "color": "white",
+        "text": "Note: Offer ID is unique and cannot be changed once set"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/cosell",
+        "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
+        "jquery_selector": "span:contains('Co-sell with Microsoft')",
+        "content_type": "bubble",
+        "left": 200,
+        "color": "white",
+        "text": "For more detailed information on Marketplace incentive programs, click here"
       }
     ],
     "recent_content": [
