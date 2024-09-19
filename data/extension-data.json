@@ -41,12 +41,20 @@
       "text": "Use this dropdown to create new marketplace offers."
     },
     {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_title": "Offer Selection",
-      "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
-      "jquery_selector": "#create-new-button",
-      "content_type": "diagram",
-      "event": "load"
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_title": "Photo Preview",
+        "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
+        "jquery_selector": "lib-table-command-bar",
+        "content_type": "modal",
+        "event": "load"
+    },
+    {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overviewX",
+        "target_title": "Video Preview",
+        "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/Outro.mp4",
+        "jquery_selector": "lib-table-command-bar",
+        "content_type": "modal",
+        "event": "load"
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
