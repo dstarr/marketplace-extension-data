@@ -58,7 +58,7 @@
         "target_title": "Offer Selection",
         "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
         "jquery_selector": "#create-new-button",
-        "content_type": "popup",
+        "content_type": "modal",
         "event": "load"
       },
       {
