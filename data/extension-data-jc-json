@@ -44,7 +44,7 @@
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
             "target_title": "Offer Selection",
             "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
-            "jquery_selector": "#create-new-button",
+            "jquery_selector": "#productWeb",
             "content_type": "modal",
             "event": "load"
         },
@@ -52,7 +52,7 @@
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
             "target_title": "Offer Selection",
             "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-            "jquery_selector": "#create-new-button",
+            "jquery_selector": "#productWeb",
             "content_type": "modal",
             "event": "load"
         },
