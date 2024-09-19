@@ -12,7 +12,7 @@
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
-        "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Flat_rate_vs_Per_user.mp3",
+        "target_url": "https://github.com/dstarr/marketplace-extension-data/blob/main/data/media/Flat_rate_vs_Per_user.mp3",
         "target_title": "Pro Tip",
         "content_type": "audio",
         "left": 200,
@@ -23,7 +23,7 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
         "target_title": "Pro Tip",
         "content_type": "bubble",
-        "bottom": 200,
+        "left": 200,
         "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
         "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"
         
@@ -40,8 +40,9 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
         "target_title": "Preview audience",
         "target_url": "",
-        "jquery_selector": "label:contains('Microsoft Entra or Microsoft Account email address')",
-        "content_type": "audio"
+        "content_type": "audio",
+        "jquery_selector": "label:contains('Microsoft Entra or Microsoft Account email address')"
+        
       }
     ],
     "recent_content": [
