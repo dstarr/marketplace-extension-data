@@ -34,7 +34,7 @@
         "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "content_type": "bubble",
         "left": "100px",
-        "top": "5px",
+        "top": "155px",
         "jquery_selector": "he-button:contains('Create new plan ')",
         "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "color": "white"
