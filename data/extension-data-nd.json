@@ -8,6 +8,7 @@
         "content_type": "bubble",
         "jquery_selector": "button:contains('New offer')",
         "left": 200,
+        "color": "white",
         "text": "Choose carefully. Not all offers are transactable. Those that are, have different pricing models. Learn more here:"
       },
       {
@@ -15,7 +16,7 @@
         "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "content_type": "bubble",
         "left": "100px",
-        "top": "150px",
+        "top": -150,
         "jquery_selector": "he-button:contains('Create new plan ')",
         "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "color": "white"
@@ -33,16 +34,18 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
         "target_title": "Pro Tip",
         "content_type": "bubble",
-        "left": 200,
+        "top": -200,
+        "color": "white",
         "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
         "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",
         "target_title": "Pro Tip",
-        "jquery_selector": "span.test-subtitle.required:contains('Screenshots')",
+        "jquery_selector": "span.text-subtitle.required:contains('Screenshots')",
         "content_type": "bubble",
         "left":100,
+        "color": "white",
         "text": "1280x720 is not the same as 720x1280. Make sure your dimensions are correct"
       },
       {
