@@ -28,7 +28,15 @@
         "jquery_selector": "button[data-automation-id='create-new-button']",
         "color": "red",
         "text": "Box is red intentionally... I like red"
-
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
+        "target_url": "https://raw.githubusercontent.com/dstarr/marketplace-extension-data/main/data/media/Flat_rate_vs_Per_user.mp3",
+        "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
+        "content_type": "audio",
+        "left": 200,
+        "jquery_selector": "he-button:contains('Create new plan ')",
+        "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
