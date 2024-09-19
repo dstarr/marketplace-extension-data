@@ -35,7 +35,7 @@
         "content_type": "bubble",
         "left": "100px",
         "top": "155px",
-        "jquery_selector": "span:contains('Plan overview')",        
+        "jquery_selector": "#partnercenter-breadcrumbs",
         "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "color": "white"
       },
