@@ -2,82 +2,46 @@
     "private_offer_page": "https://to-be-determined.com",
     "page_content": [
       {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
-        "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-        "target_title": "Create a new marketplace offer",
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plans-pricing",
+        "target_title": "Is your offer type transactable?",
         "content_type": "bubble",
-        "jquery_selector": "h2:contains('Plan overview')",
+        "jquery_selector": "button:contains('New offer')",
         "left": 200,
-        "text": "I am here"
+        "text": "Choose carefully. Not all offers are transactable. Those that are, have different pricing models. Learn more here:"
       },
       {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-        "content_type": "bubble",
-        "jquery_selector": "button[data-automation-id='create-new-button']",
-        "text": "Step #1 - Use this drop down to select the offer type to publish."
-      },
-      {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-        "target_title": "Sample video 1",
-        "content_type": "video",
-        "jquery_selector": "mix-command-bar"
-      },
-      {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/home_workspace_marketplace_offers.mp3",
-        "target_title": "Sample audio 3",
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
+        "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Flat_rate_vs_Per_user.mp3",
+        "target_title": "Pro Tip",
         "content_type": "audio",
-        "jquery_selector": "he-task-item:contains('Private offers')"
+        "left": 200,
+        "jquery_selector": "he-button:contains('Create new plan ')",
+        "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
       },
       {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_title": "Did you know?",
-        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-        "jquery_selector": "#create-new-button",
-        "content_type": "hint",
-        "event": "load",
-        "text": "Use this dropdown to create new marketplace offers."
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
+        "target_title": "Pro Tip",
+        "content_type": "bubble",
+        "bottom": 200,
+        "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
+        "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"
+        
       },
       {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_title": "Offer Selection",
-        "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
-        "jquery_selector": "#create-new-button",
-        "content_type": "popup",
-        "event": "load"
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",
+        "target_title": "Pro Tip",
+        "jquery_selector": "span.test-subtitle.required:contains('Screenshots')",
+        "content_type": "bubble",
+        "left":100,
+        "text": "1280x720 is not the same as 720x1280. Make sure your dimensions are correct"
       },
       {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_title": "Mastering the SaaS Accelerator (full course)",
-        "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
-        "content_type": "link",
-        "jquery_selector": "span:contains('Overview')",
-        "event": "load"
-      },
-      {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-        "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-        "target_title": "Sample video 2",
-        "content_type": "video",
-        "jquery_selector": "#workspace-nav-offers-homepagelink"
-      },
-      {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-        "target_title": "PC dashboard home content",
-        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-        "jquery_selector": "foo",
-        "content_type": "link",
-        "event": "load"
-      },
-      {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_title": "PC Offers overview content 2",
-        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-        "jquery_selector": "foo",
-        "content_type": "link",
-        "event": "load"
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
+        "target_title": "Preview audience",
+        "target_url": "",
+        "jquery_selector": "label:contains('Microsoft Entra or Microsoft Account email address')",
+        "content_type": "audio"
       }
     ],
     "recent_content": [
