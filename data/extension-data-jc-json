@@ -26,7 +26,7 @@
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/home_workspace_marketplace_offers.mp3",
+            "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/home_workspace_marketplace_offers.mp3",
             "target_title": "Sample audio 3",
             "content_type": "audio",
             "jquery_selector": "he-task-item:contains('Private offers')"
@@ -42,7 +42,7 @@
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "Offer Selection",
+            "target_title": "Photo Preview",
             "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
             "jquery_selector": "lib-table-command-bar",
             "content_type": "modal",
@@ -50,8 +50,8 @@
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "Offer Selection",
-            "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
+            "target_title": "Video Preview",
+            "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/Outro.mp4",
             "jquery_selector": "lib-table-command-bar",
             "content_type": "modal",
             "event": "load"
