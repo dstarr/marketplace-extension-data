@@ -27,7 +27,7 @@
         "content_type": "bubble",
         "jquery_selector": "button[data-automation-id='create-new-button']",
         "color": "red",
-        "text": "Box is red intentionally"
+        "text": "Box is red intentionally... I like red"
 
       },
       {
