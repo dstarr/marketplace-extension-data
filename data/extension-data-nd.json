@@ -34,7 +34,7 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
         "target_title": "Pro Tip",
         "content_type": "bubble",
-        "top": 300,
+        "top": 150,
         "color": "white",
         "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
         "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
@@ -42,7 +42,7 @@
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",
         "target_title": "Pro Tip",
-        "jquery_selector": "span.text-subtitle:contains('Screenshots')",
+        "jquery_selector": "span:contains('Screenshots')",
         "content_type": "bubble",
         "left":200,
         "color": "white",
