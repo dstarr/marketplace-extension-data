@@ -11,8 +11,7 @@
         "text": "Choose carefully. Not all offers are transactable. Those that are, have different pricing models. Learn more here:"
       },
       {
-        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
-        "target_url": "https://raw.githubusercontent.com/dstarr/marketplace-extension-data/main/data/media/Flat_rate_vs_Per_user.mp3",
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",        
         "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "content_type": "bubble",
         "left": 100,
