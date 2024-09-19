@@ -14,9 +14,11 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",        
         "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
         "content_type": "bubble",
-        "left": 100,
+        "left": "100px",
+        "top": "150px",
         "jquery_selector": "he-button:contains('Create new plan ')",
-        "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
+        "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
+        "color": "white"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
@@ -33,8 +35,7 @@
         "content_type": "bubble",
         "left": 200,
         "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
-        "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"
-        
+        "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",
