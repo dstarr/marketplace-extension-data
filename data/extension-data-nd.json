@@ -35,7 +35,8 @@
         "target_title": "Pro Tip",
         "content_type": "bubble",
         "top": 150,
-        "left": -150,
+        "left": -100,
+        "width": "150px",
         "color": "white",
         "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
         "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
@@ -82,14 +83,13 @@
         "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/implementing-a-simple-saas-webhook-in-net-mp4",
         "jquery_selector": "label:contains('Connection webhook')",
         "content_type": "bubble",
-        "left":150,
-        "top":100,
+        "left":200,
         "color": "white",
         "text": "Here's a detailed video on how to configure your Connection webhook"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "jquery_selector": "label[for='offerIdInput']:contains('Offer ID')",
+        "jquery_selector": "div.label[for='offerIdInput']",
         "content_type": "bubble",
         "left":100,
         "color": "white",
@@ -100,6 +100,7 @@
         "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
         "jquery_selector": "span:contains('Co-sell with Microsoft')",
         "content_type": "bubble",
+        "top": 50,
         "left": 500,
         "color": "white",
         "text": "For more detailed information on Marketplace incentive programs, click here"
