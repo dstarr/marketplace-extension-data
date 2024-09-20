@@ -52,7 +52,7 @@
       "content_type": "bubble",
       "jquery_selector": "#settingsCog",
       "color": "white",
-      "top": "-50px",
+      "top": "-500px",
       "left": "-2105px",
       "text": "Find all of your account information and identifiers in Settings. Learn more here."
     },
