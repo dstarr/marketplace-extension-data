@@ -61,8 +61,8 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
       "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
       "content_type": "bubble",
-      "top": "-50px",
-      "left": "600px",
+      "top": "10px",
+      "left": "775px",
       "jquery_selector": "#partnercenter-breadcrumb-home",
       "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
     },
