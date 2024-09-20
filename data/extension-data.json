@@ -47,7 +47,7 @@
         "event": "load"
     },
     {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
       "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/navigating-partner-center-accounts-and-identifiers-mp4",
       "target_title": "Navigating Partner Center accounts and identifiers",
       "content_type": "bubble",
