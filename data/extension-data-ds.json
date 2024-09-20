@@ -52,9 +52,9 @@
       "content_type": "bubble",
       "jquery_selector": "#settingsCog",
       "color": "white",
-      "top": "-10px",
-      "left": "-1105px",
-      "text": "Find all of your account information and identifiers. Learn more here."
+      "top": "-50px",
+      "left": "-2105px",
+      "text": "Find all of your account information and identifiers in Settings. Learn more here."
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",        
