@@ -78,15 +78,6 @@
       "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
     },
     {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",
-      "target_title": "Pro Tip",
-      "jquery_selector": "span:contains('Screenshots')",
-      "content_type": "bubble",
-      "left":200,
-      "color": "white",
-      "text": "1280x720 is not the same as 720x1280. Make sure your dimensions are correct"
-    },
-    {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
       "target_title": "Preview audience",
       "target_url": "",
@@ -136,7 +127,6 @@
       "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
       "jquery_selector": "span:contains('Co-sell with Microsoft')",
       "content_type": "bubble",
-      "top": 50,
       "left": 500,
       "color": "white",
       "text": "For more detailed information on Marketplace incentive programs, click here"
