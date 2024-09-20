@@ -2,82 +2,143 @@
   "private_offer_page": "https://to-be-determined.com",
   "page_content": [
     {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
-      "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-      "target_title": "Create a new marketplace offer",
-      "content_type": "bubble",
-      "jquery_selector": "h2:contains('Plan overview')",
-      "left": 200,
-      "text": "I am here"
-    },
-    {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-      "content_type": "bubble",
-      "jquery_selector": "button[data-automation-id='create-new-button']",
-      "text": "Step #1 - Use this drop down to select the offer type to publish."
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
+      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/Outro.mp4",
       "target_title": "Sample video 1",
       "content_type": "video",
       "jquery_selector": "mix-command-bar"
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/home_workspace_marketplace_offers.mp3",
-      "target_title": "Sample audio 3",
-      "content_type": "audio",
-      "jquery_selector": "he-task-item:contains('Private offers')"
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
       "target_title": "Did you know?",
-      "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
       "jquery_selector": "#create-new-button",
       "content_type": "hint",
       "event": "load",
-      "text": "Use this dropdown to create new marketplace offers."
+      "items": [
+        {
+          "text": "There is guide to find the best offer type for your solution.",
+          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/select-offer-type/"
+        },
+       {
+          "text": "You can watch an overview of publishing a SaaS offer.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-offer-overview-mp4"
+        },
+        {
+          "text": "You can learn all about SaaS offer technical configuration.",
+          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/saas/dev/"
+        },
+        {
+          "text": "There is SaaS Accelerator for use with SaaS offers.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-introduction-mp4"
+        },
+        {
+          "text": "Private Offers help with faster private deal making.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/private-offers-overview-mp4"
+        }
+      ]
+    },
+    {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_title": "Photo Preview",
+        "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
+        "jquery_selector": "lib-table-command-bar",
+        "content_type": "modal",
+        "event": "load"
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_title": "Offer Selection",
-      "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
-      "jquery_selector": "#create-new-button",
-      "content_type": "diagram",
-      "event": "load"
+      "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/navigating-partner-center-accounts-and-identifiers-mp4",
+      "target_title": "Navigating Partner Center accounts and identifiers",
+      "content_type": "bubble",
+      "jquery_selector": "#settingsCog",
+      "color": "white",
+      "top": "-10px",
+      "left": "-1105px",
+      "text": "Find all of your account information and identifiers. Learn more here."
+    },
+    {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",        
+      "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
+      "content_type": "bubble",
+      "left": "650px",
+      "top": "60px",
+      "jquery_selector": "#partnercenter-breadcrumbs",
+      "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
+      "color": "white"
+    },
+    {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
+      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/Flat_rate_vs_Per_user.mp3",
+      "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
+      "content_type": "audio",
+      "left": "200",
+      "jquery_selector": "he-button:contains('Create new plan ')",
+      "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
+    },
+    {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
+      "target_title": "Pro Tip",
+      "content_type": "bubble",
+      "top": "150",
+      "left": "-100",
+      "width": "150px",
+      "color": "white",
+      "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
+      "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
+    },
+    {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
+      "target_title": "Preview audience",
+      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/home_workspace_marketplace_offers.mp3",
+      "content_type": "audio",
+      "jquery_selector": "label:contains('Microsoft Entra or Microsoft Account email address')"
+      
+    },
+    {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
+      "target_title": "Here's a detailed video on how to configure your Landing page",
+      "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/building-a-simple-landing-page-in-net-mp4",
+      "jquery_selector": "label:contains('Landing page URL')",
+      "content_type": "bubble",
+      "left": "200",
+      "color": "white",
+      "text": "Here's a detailed video on how to configure your Landing page"
+    },
+    {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
+      "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-hands-on-tour-mp4",
+      "jquery_selector": "#partnercenter-breadcrumbs",
+      "content_type": "bubble",
+      "top": "60px",
+      "left": "500",
+      "color": "white",
+      "text": "Watch a hands-on tour here"
+    },
+    {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
+      "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/implementing-a-simple-saas-webhook-in-net-mp4",
+      "jquery_selector": "label:contains('Connection webhook')",
+      "content_type": "bubble",
+      "left": "200",
+      "color": "white",
+      "text": "Here's a detailed video on how to configure your Connection webhook"
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_title": "Mastering the SaaS Accelerator (full course)",
-      "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
-      "content_type": "link",
-      "jquery_selector": "span:contains('Overview')",
-      "event": "load"
+      "jquery_selector": "div.label[for='offerIdInput']",
+      "content_type": "bubble",
+      "left": "100",
+      "color": "white",
+      "text": "Note: Offer ID is unique and cannot be changed once set"
     },
     {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-      "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-      "target_title": "Sample video 2",
-      "content_type": "video",
-      "jquery_selector": "#workspace-nav-offers-homepagelink"
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-      "target_title": "PC dashboard home content",
-      "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-      "jquery_selector": "foo",
-      "content_type": "link",
-      "event": "load"
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_title": "PC Offers overview content 2",
-      "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-      "jquery_selector": "foo",
-      "content_type": "link",
-      "event": "load"
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/cosell",
+      "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
+      "jquery_selector": "span:contains('Co-sell with Microsoft')",
+      "content_type": "bubble",
+      "left": "500",
+      "color": "white",
+      "text": "For more detailed information on Marketplace incentive programs, click here"
     }
   ],
   "recent_content": [
