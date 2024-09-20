@@ -52,7 +52,7 @@
       "target_title": "Navigating Partner Center accounts and identifiers",
       "content_type": "bubble",
       "jquery_selector": "#settingsCog",
-      "color": "#ADD8E6",
+      "color": "#fdfd96",
       "top": "50px",
       "left": "-205px",
       "text": "Find all of your account information and identifiers in Settings. Learn more here."
@@ -69,9 +69,9 @@
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
-      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/Flat_rate_vs_Per_user.mp3",
+      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Flat_rate_vs_Per_user.mp3",
       "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
-      "content_type": "audio",
+      "content_type": "bubble",
       "left": "200",
       "jquery_selector": "he-button:contains('Create new plan ')",
       "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
@@ -90,10 +90,9 @@
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
       "target_title": "Preview audience",
-      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/home_workspace_marketplace_offers.mp3",
+      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/home_workspace_marketplace_offers.mp3",
       "content_type": "audio",
       "jquery_selector": "label:contains('Microsoft Entra or Microsoft Account email address')"
-      
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
