@@ -58,18 +58,7 @@
       "text": "Find all of your account information and identifiers in Settings. Learn more here."
     },
     {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",        
-      "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
-      "content_type": "bubble",
-      "left": "650px",
-      "top": "60px",
-      "jquery_selector": "#partnercenter-breadcrumbs",
-      "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
-      "color": "#ADD8E6"
-    },
-    {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
-      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Flat_rate_vs_Per_user.mp3",
       "target_title": "Pro Tip: Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
       "content_type": "bubble",
       "left": "200",
