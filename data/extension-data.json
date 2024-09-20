@@ -16,16 +16,24 @@
       "event": "load",
       "items": [
         {
-          "text": "1- Use this dropdown to create new marketplace offers.",
-          "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+          "text": "There is guide to find the best offer type for your solution.",
+          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/select-offer-type/"
+        },
+       {
+          "text": "You can watch an overview of publishing a SaaS offer.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-offer-overview-mp4"
         },
         {
-          "text": "2- Use this dropdown to create new marketplace offers.",
-          "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+          "text": "You can learn all about SaaS offer technical configuration.",
+          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/saas/dev/"
         },
         {
-          "text": "3- Use this dropdown to create new marketplace offers.",
-          "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+          "text": "There is SaaS Accelerator for use with SaaS offers.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-introduction-mp4"
+        },
+        {
+          "text": "Private Offers help with faster private deal making.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/private-offers-overview-mp4"
         }
       ]
     },
