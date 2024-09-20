@@ -39,16 +39,20 @@
       "event": "load",
       "items": [
         {
-          "text": "1- Use this dropdown to create new marketplace offers.",
+          "text": "Unsure about the right offer type? Check our guide to find the best fit.",
+          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/select-offer-type/"
+        },
+        {
+          "text": "Want to uncover the details of publishing a SaaS offer? Click below to learn more!",
           "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
         },
         {
-          "text": "2- Use this dropdown to create new marketplace offers.",
+          "text": "Need help with understanding SaaS offer technical configuration, see below",
           "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
         },
         {
-          "text": "3- Use this dropdown to create new marketplace offers.",
-          "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM"
+          "text": "What are private offers? Learn more here",
+          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/partner-center/private-offers/"
         }
       ]
     },
