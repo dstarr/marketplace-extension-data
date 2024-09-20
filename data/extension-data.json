@@ -47,14 +47,14 @@
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plans-pricing",
-      "target_title": "Is your offer type transactable?",
+      "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/navigating-partner-center-accounts-and-identifiers-mp4",
+      "target_title": "Navigating Partner Center accounts and identifiers",
       "content_type": "bubble",
-      "jquery_selector": "button:contains('New offer')",
+      "jquery_selector": "#settingsCog",
       "color": "white",
-      "top": "-80px",
-      "left": "-105px",
-      "text": "Choose carefully. Not all offers are transactable. Those that are, have different pricing models. Learn more here:"
+      "top": "50px",
+      "left": "-205px",
+      "text": "Find all of your account information and identifiers in Settings. Learn more here."
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",        
@@ -79,10 +79,10 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
       "target_title": "Pro Tip",
       "content_type": "bubble",
-      "top": "150",
-      "left": "-100",
+      "top": "30",
+      "left": "0",
       "width": "150px",
-      "color": "white",
+      "color": "#ADD8E6",
       "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
       "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
     },
