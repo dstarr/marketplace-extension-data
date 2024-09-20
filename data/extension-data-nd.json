@@ -35,7 +35,6 @@
         "target_title": "Pro Tip",
         "content_type": "bubble",
         "top": 150,
-        "left": -100,
         "width": "150px",
         "color": "white",
         "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
@@ -44,8 +43,9 @@
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/listings",
         "target_title": "Pro Tip",
-        "jquery_selector": "span:contains('Screenshots')",
+        "jquery_selector": "div:contains('Add up to 5 screenshots that show how your offer works. You must also add a caption to describe your screenshot.')",
         "content_type": "bubble",
+        "top":100,
         "left":200,
         "color": "white",
         "text": "1280x720 is not the same as 720x1280. Make sure your dimensions are correct"
@@ -89,9 +89,9 @@
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "jquery_selector": "div.label[for='offerIdInput']",
+        "jquery_selector": "h2.fly-in__title:contains('New Software as a Service')",
         "content_type": "bubble",
-        "left":100,
+        "top":100,
         "color": "white",
         "text": "Note: Offer ID is unique and cannot be changed once set"
       },
