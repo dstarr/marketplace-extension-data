@@ -63,6 +63,7 @@
       "content_type": "bubble",
       "top": "10px",
       "left": "775px",
+      "color": "#ADD8E6",
       "jquery_selector": "#partnercenter-breadcrumb-home",
       "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
     },
