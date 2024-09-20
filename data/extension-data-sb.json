@@ -42,17 +42,21 @@
           "text": "Unsure about the right offer type? Check our guide to find the best fit.",
           "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/select-offer-type/"
         },
-        {
+       {
           "text": "Want to uncover the details of publishing a SaaS offer? Click below to learn more!",
-          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/saas/general-topics/"
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-offer-overview-mp4"
         },
         {
           "text": "Need help with understanding SaaS offer technical configuration, see below",
           "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/saas/dev/"
         },
         {
+          "text": "Did you know about SaaS Accelerator, learn more here",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-introduction-mp4"
+        },
+        {
           "text": "What are private offers? Learn more here",
-          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/partner-center/private-offers/"
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/private-offers-overview-mp4"
         }
       ]
     },
