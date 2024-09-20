@@ -79,13 +79,6 @@
       "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
     },
     {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/",
-      "target_title": "Preview audience",
-      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/home_workspace_marketplace_offers.mp3",
-      "content_type": "audio",
-      "jquery_selector": ""
-    },
-    {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
       "target_title": "Pricing and availability",
       "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
