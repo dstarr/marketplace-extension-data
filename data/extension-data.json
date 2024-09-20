@@ -52,7 +52,7 @@
       "target_title": "Navigating Partner Center accounts and identifiers",
       "content_type": "bubble",
       "jquery_selector": "#settingsCog",
-      "color": "white",
+      "color": "#ADD8E6",
       "top": "50px",
       "left": "-205px",
       "text": "Find all of your account information and identifiers in Settings. Learn more here."
@@ -65,7 +65,7 @@
       "top": "60px",
       "jquery_selector": "#partnercenter-breadcrumbs",
       "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!",
-      "color": "white"
+      "color": "#ADD8E6"
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
