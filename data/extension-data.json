@@ -79,8 +79,8 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
       "target_title": "Pro Tip",
       "content_type": "bubble",
-      "top": "30",
-      "left": "0",
+      "top": "75px",
+      "left": "0px",
       "width": "150px",
       "color": "#ADD8E6",
       "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
@@ -101,7 +101,7 @@
       "jquery_selector": "label:contains('Landing page URL')",
       "content_type": "bubble",
       "left": "200",
-      "color": "white",
+      "color": "#ADD8E6",
       "text": "Here's a detailed video on how to configure your Landing page"
     },
     {
@@ -111,7 +111,7 @@
       "content_type": "bubble",
       "top": "60px",
       "left": "500",
-      "color": "white",
+      "color": "#ADD8E6",
       "text": "Watch a hands-on tour here"
     },
     {
@@ -120,7 +120,7 @@
       "jquery_selector": "label:contains('Connection webhook')",
       "content_type": "bubble",
       "left": "200",
-      "color": "white",
+      "color": "#ADD8E6",
       "text": "Here's a detailed video on how to configure your Connection webhook"
     },
     {
@@ -128,7 +128,7 @@
       "jquery_selector": "div.label[for='offerIdInput']",
       "content_type": "bubble",
       "left": "100",
-      "color": "white",
+      "color": "#ADD8E6",
       "text": "Note: Offer ID is unique and cannot be changed once set"
     },
     {
@@ -137,7 +137,7 @@
       "jquery_selector": "span:contains('Co-sell with Microsoft')",
       "content_type": "bubble",
       "left": "500",
-      "color": "white",
+      "color": "#ADD8E6",
       "text": "For more detailed information on Marketplace incentive programs, click here"
     }
   ],
