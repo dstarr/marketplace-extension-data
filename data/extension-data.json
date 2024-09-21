@@ -76,7 +76,7 @@
       "width": "150px",
       "color": "#ADD8E6",
       "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
-      "text": "Your offer appears on the marketplace or Appsource based on the Category and Subcategories selected in Properties"        
+      "text": "Offer certification is a human powered activity."        
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
