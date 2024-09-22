@@ -39,6 +39,27 @@
       ]
     },
     {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
+      "target_title": "Helpful videos",
+      "jquery_selector": "#create-new-button",
+      "content_type": "hint",
+      "event": "load",
+      "items": [
+        {
+          "text": "Learn how to complete technical configuration.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-hands-on-tour-mp4"
+        },
+        {
+          "text": "How to configure your landing page.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/building-a-simple-landing-page-in-net-mp4"
+        },
+        {
+          "text": "How to configure your webhook.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/implementing-a-simple-saas-webhook-in-net-mp4"
+        }
+      ]
+    },
+    {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
         "target_title": "Photo Preview",
         "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
@@ -52,7 +73,7 @@
       "target_title": "Navigating Partner Center accounts and identifiers",
       "content_type": "bubble",
       "jquery_selector": "#settingsCog",
-      "color": "#fff",
+      "color": "#69afe5",
       "top": "50px",
       "left": "-205px",
       "text": "Find all of your account information and identifiers in Settings. Learn more here."
@@ -64,7 +85,7 @@
       "content_type": "bubble",
       "top": "10px",
       "left": "700px",
-      "color": "#fff",
+      "color": "#69afe5",
       "jquery_selector": "#partnercenter-breadcrumb-home",
       "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
     },
@@ -92,8 +113,8 @@
       "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/building-a-simple-landing-page-in-net-mp4",
       "jquery_selector": "label:contains('Landing page URL')",
       "content_type": "bubble",
-      "left": "200",
-      "color": "#fff",
+      "left": "800",
+      "color": "#69afe5",
       "text": "Here's a detailed video on how to configure your Landing page"
     },
     {
@@ -103,7 +124,7 @@
       "content_type": "bubble",
       "top": "60px",
       "left": "500",
-      "color": "#fff",
+      "color": "#69afe5",
       "text": "Watch a hands-on tour here"
     },
     {
@@ -112,7 +133,7 @@
       "jquery_selector": "label:contains('Connection webhook')",
       "content_type": "bubble",
       "left": "200",
-      "color": "#fff",
+      "color": "#69afe5",
       "text": "Here's a detailed video on how to configure your Connection webhook"
     },
     {
@@ -120,7 +141,7 @@
       "jquery_selector": "div.label[for='offerIdInput']",
       "content_type": "bubble",
       "left": "100",
-      "color": "#fff",
+      "color": "#69afe5",
       "text": "Note: Offer ID is unique and cannot be changed once set"
     },
     {
@@ -129,7 +150,7 @@
       "jquery_selector": "span:contains('Co-sell with Microsoft')",
       "content_type": "bubble",
       "left": "500",
-      "color": "#fff",
+      "color": "#69afe5",
       "text": "For more detailed information on Marketplace incentive programs, click here"
     }
   ],
