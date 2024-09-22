@@ -120,7 +120,7 @@
       "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
       "jquery_selector": "span:contains('Co-sell with Microsoft')",
       "content_type": "bubble",
-      "top": "-35px",
+      "top": "-10px",
       "left": "500px",
       "color": "#69afe5",
       "text": "For more detailed information on Marketplace incentive programs, click here"
