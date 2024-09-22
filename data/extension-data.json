@@ -52,7 +52,7 @@
       "target_title": "Navigating Partner Center accounts and identifiers",
       "content_type": "bubble",
       "jquery_selector": "#settingsCog",
-      "color": "#326e8f",
+      "color": "#fff",
       "top": "50px",
       "left": "-205px",
       "text": "Find all of your account information and identifiers in Settings. Learn more here."
@@ -64,7 +64,7 @@
       "content_type": "bubble",
       "top": "10px",
       "left": "700px",
-      "color": "#326e8f",
+      "color": "#fff",
       "jquery_selector": "#partnercenter-breadcrumb-home",
       "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
     },
@@ -72,10 +72,10 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
       "target_title": "Pro Tip",
       "content_type": "bubble",
-      "top": "50px",
+      "top": "75px",
       "left": "0px",
       "width": "150px",
-      "color": "#326e8f",
+      "color": "#fff",
       "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
       "text": "Offer certification is a human powered activity."        
     },
@@ -93,7 +93,7 @@
       "jquery_selector": "label:contains('Landing page URL')",
       "content_type": "bubble",
       "left": "200",
-      "color": "#326e8f",
+      "color": "#fff",
       "text": "Here's a detailed video on how to configure your Landing page"
     },
     {
@@ -103,7 +103,7 @@
       "content_type": "bubble",
       "top": "60px",
       "left": "500",
-      "color": "#326e8f",
+      "color": "#fff",
       "text": "Watch a hands-on tour here"
     },
     {
@@ -112,7 +112,7 @@
       "jquery_selector": "label:contains('Connection webhook')",
       "content_type": "bubble",
       "left": "200",
-      "color": "#326e8f",
+      "color": "#fff",
       "text": "Here's a detailed video on how to configure your Connection webhook"
     },
     {
@@ -120,7 +120,7 @@
       "jquery_selector": "div.label[for='offerIdInput']",
       "content_type": "bubble",
       "left": "100",
-      "color": "#326e8f",
+      "color": "#fff",
       "text": "Note: Offer ID is unique and cannot be changed once set"
     },
     {
@@ -129,7 +129,7 @@
       "jquery_selector": "span:contains('Co-sell with Microsoft')",
       "content_type": "bubble",
       "left": "500",
-      "color": "#326e8f",
+      "color": "#fff",
       "text": "For more detailed information on Marketplace incentive programs, click here"
     }
   ],
