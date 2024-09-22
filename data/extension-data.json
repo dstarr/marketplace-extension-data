@@ -3,9 +3,9 @@
   "page_content": [
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Outro.mp4",
+      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/0.03-choose-offer-type.mp4",
                      
-      "target_title": "Sample video 1",
+      "target_title": "Choose your offer type",
       "content_type": "video",
       "jquery_selector": "mix-command-bar"
     },
