@@ -61,7 +61,7 @@
     },
     {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_title": "Photo Preview",
+        "target_title": "Choose your offer type",
         "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
         "jquery_selector": "lib-table-command-bar",
         "content_type": "modal",
