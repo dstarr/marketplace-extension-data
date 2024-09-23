@@ -75,7 +75,7 @@
       "jquery_selector": "#settingsCog",
       "color": "#69afe5",
       "top": "50px",
-      "left": "-20px",
+      "left": "-205px",
       "text": "Find all of your account information and identifiers in Settings. Learn more here."
     },
     {
@@ -120,7 +120,7 @@
       "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
       "jquery_selector": "span:contains('Co-sell with Microsoft')",
       "content_type": "bubble",
-      "top": "-10px",
+      "top": "-25px",
       "left": "500px",
       "color": "#69afe5",
       "text": "For more detailed information on Marketplace incentive programs, click here"
