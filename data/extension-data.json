@@ -65,7 +65,8 @@
         "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
         "jquery_selector": "lib-table-command-bar",
         "content_type": "modal",
-        "event": "load"
+        "event": "load",
+        "text": "A process model to help you select the right offer type for your marketplace solution."
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
