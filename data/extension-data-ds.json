@@ -2,17 +2,20 @@
   "private_offer_page": "https://to-be-determined.com",
   "page_content": [
     {
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/0.03-choose-offer-type.mp4",
+      "target_title": "Choose your offer type",
+      "content_type": "video",
+      "jquery_selector": "mix-command-bar"
+    },
+    {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-      "text": "Watch now",
-      "jquery_selector": "#myAccess-homepage",
+      "target_title": "Watch now",
+      "jquery_selector": "#create-new-button",
       "content_type": "hint",
       "items": [
         {
-          "text": "Getting started with Partner Center",
-          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/getting-started-with-partner-center-mp4"
-        },
-        {
-          "text": "Getting started with Partner Center",
+          "text": "Getting started with Partner Center.",
           "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/getting-started-with-partner-center-mp4"
         }
       ]
