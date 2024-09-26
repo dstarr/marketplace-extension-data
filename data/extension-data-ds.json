@@ -11,7 +11,7 @@
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
       "title": "Watch now",
-      "jquery_selector": "#myAccess-homepage",
+      "jquery_selector": "#homeQuickStartCardsHeader",
       "content_type": "hint",
       "items": [
         {
