@@ -2,92 +2,26 @@
   "private_offer_page": "https://to-be-determined.com",
   "page_content": [
     {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/0.03-choose-offer-type.mp4",
-                     
-      "target_title": "Choose your offer type",
-      "content_type": "video",
-      "jquery_selector": "mix-command-bar"
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-      "target_title": "Did you know?",
-      "jquery_selector": "#create-new-button",
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
+      "target_title": "Watch now",
+      "jquery_selector": "#myAccess-homepage",
       "content_type": "hint",
       "event": "load",
       "items": [
         {
-          "text": "There is guide to find the best offer type for your solution.",
-          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/select-offer-type/"
-        },
-       {
-          "text": "You can watch an overview of publishing a SaaS offer.",
-          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-offer-overview-mp4"
-        },
-        {
-          "text": "You can learn all about SaaS offer technical configuration.",
-          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/saas/dev/"
-        },
-        {
-          "text": "There is SaaS Accelerator for use with SaaS offers.",
-          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-introduction-mp4"
-        },
-        {
-          "text": "Private Offers help with faster private deal making.",
-          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/private-offers-overview-mp4"
-        }
-      ]
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
-      "target_title": "Helpful videos",
-      "jquery_selector": "#create-new-button",
-      "content_type": "hint",
-      "event": "load",
-      "items": [
-        {
-          "text": "Learn how to complete technical configuration.",
-          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-hands-on-tour-mp4"
-        },
-        {
-          "text": "How to configure your landing page.",
-          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/building-a-simple-landing-page-in-net-mp4"
-        },
-        {
-          "text": "How to configure your webhook.",
-          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/implementing-a-simple-saas-webhook-in-net-mp4"
+          "text": "Getting started with Partner Center",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/getting-started-with-partner-center-mp4"
         }
       ]
     },
     {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_title": "Photo Preview",
+        "target_title": "Choose your offer type",
         "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
         "jquery_selector": "lib-table-command-bar",
         "content_type": "modal",
-        "event": "load"
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-      "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/navigating-partner-center-accounts-and-identifiers-mp4",
-      "target_title": "Navigating Partner Center accounts and identifiers",
-      "content_type": "bubble",
-      "jquery_selector": "#settingsCog",
-      "color": "#69afe5",
-      "top": "50px",
-      "left": "-205px",
-      "text": "Find all of your account information and identifiers in Settings. Learn more here."
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
-      "target_title": "Plans and pricing for commercial marketplace offers",
-      "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plans-pricing",
-      "content_type": "bubble",
-      "top": "10px",
-      "left": "700px",
-      "color": "#69afe5",
-      "jquery_selector": "#partnercenter-breadcrumb-home",
-      "text": "Offers can have many Plans, but only 1 Pricing model. Choose wisely!"
+        "event": "load",
+        "text": "A process model to help you select the right offer type for your marketplace solution."
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
@@ -96,7 +30,7 @@
       "top": "75px",
       "left": "0px",
       "width": "150px",
-      "color": "#fff",
+      "color": "#69afe5",
       "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
       "text": "Offer certification is a human powered activity."        
     },
@@ -120,7 +54,7 @@
       "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
       "jquery_selector": "span:contains('Co-sell with Microsoft')",
       "content_type": "bubble",
-      "top": "-25px",
+      "top": "-10px",
       "left": "500px",
       "color": "#69afe5",
       "text": "For more detailed information on Marketplace incentive programs, click here"
