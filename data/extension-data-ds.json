@@ -10,7 +10,7 @@
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-      "target_title": "Watch now",
+      "text": "Watch now",
       "jquery_selector": "#myAccess-homepage",
       "content_type": "hint",
       "items": [
