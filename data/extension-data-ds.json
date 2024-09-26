@@ -11,7 +11,7 @@
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
       "target_title": "Watch now",
-      "jquery_selector": "#create-new-button",
+      "jquery_selector": "#myAccess-homepage",
       "content_type": "hint",
       "items": [
         {
