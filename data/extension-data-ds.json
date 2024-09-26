@@ -3,10 +3,9 @@
   "page_content": [
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-      "target_title": "Watch now",
+      "text": "Watch now",
       "jquery_selector": "#myAccess-homepage",
       "content_type": "hint",
-      "event": "load",
       "items": [
         {
           "text": "Getting started with Partner Center",
@@ -24,7 +23,6 @@
         "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
         "jquery_selector": "lib-table-command-bar",
         "content_type": "modal",
-        "event": "load",
         "text": "A process model to help you select the right offer type for your marketplace solution."
     },
     {
