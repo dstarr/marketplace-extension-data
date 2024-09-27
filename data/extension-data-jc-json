@@ -49,7 +49,7 @@
             "event": "load"
         },
         {
-            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overviewX",
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
             "target_title": "Video Preview",
             "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/data/media/Outro.mp4",
             "jquery_selector": "lib-table-command-bar",
