@@ -28,12 +28,24 @@
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
       "content_type": "bubble",
-      "top": "200px",
-      "left": "130px",
+      "top": "170px",
+      "left": "150px",
       "width": "150px",
-      "color": "#69afe5",
+      "color": "#fff",
       "jquery_selector": "button:has(span:contains('Go live'))",
-      "text": "Test purchasing your offer with the links here before hitting the Go live button."
+      "text": "⬅️ Test purchasing your offer with the links here before hitting the <b>Go live</b> button."
+    },
+		{
+      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
+      "target_title": "SaaS Accelerator introduction",
+      "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-introduction-mp4",
+      "content_type": "bubble",
+      "jquery_selector": "#formly_11_input_LandingPageUrl_0",
+			"top": "-90px",
+      "left": "370px",
+      "width": "300px",
+      "color": "#fff",
+			"text": "<p>Want to publish your SaaS offer without writing any code? Try the SaaS Accelerator.</p>"
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
@@ -50,16 +62,22 @@
       "color": "#69afe5",
       "text": "Note: Offer ID is unique and cannot be changed once set"
     },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/cosell",
-      "target_url":"https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4",
-      "jquery_selector": "span:contains('Co-sell with Microsoft')",
-      "content_type": "bubble",
-      "top": "-10px",
-      "left": "500px",
-      "color": "#69afe5",
-      "text": "For more detailed information on Marketplace incentive programs, click here"
-    }
+		{
+			"page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/cosell",
+			"target_title": "Marketplace incentive programs",
+			"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/02.1-marketplace-incentives.mp4",
+			"jquery_selector": "a:contains('Learn more')",
+			"content_type": "video",
+			"text": "Learn about the different incentive programs, including Co-sell."
+		},
+		{
+			"page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/private-offers",
+			"target_title": "Private offers overview",
+			"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/01.1-isv-private-offer-overview-2.mp4",
+			"jquery_selector": "p:contains('Create private offers for your customers')",
+			"content_type": "modal",
+			"text": "Learn how private offers work for marketplace publishers offering them directly to customers."
+		}
   ],
   "recent_content": [
     {
