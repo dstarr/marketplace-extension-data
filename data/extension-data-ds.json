@@ -27,14 +27,13 @@
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
-      "target_title": "Pro Tip",
       "content_type": "bubble",
-      "top": "75px",
-      "left": "0px",
+      "top": "-50px",
+      "left": "50px",
       "width": "150px",
       "color": "#69afe5",
-      "jquery_selector": "div.subway-description.stop-title:contains('Certification')",
-      "text": "Offer certification is a human powered activity."        
+      "jquery_selector": "button > span:contains('Go live')", 
+      "text": "Test purchasing your offer with the links here before hitting the <b>Go live</b> button."        
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
