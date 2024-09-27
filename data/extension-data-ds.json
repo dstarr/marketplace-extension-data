@@ -32,7 +32,7 @@
       "left": "50px",
       "width": "150px",
       "color": "#69afe5",
-      "jquery_selector": "$('a:contains('Azure marketplace preview')')",
+      "jquery_selector": "$('#publishing-status > div > div > section > div > workflow-subway-stops > div > div.subway-status > div:nth-child(3) > div:nth-child(4) > div:nth-child(3) > a')",
       "text": "Test purchasing your offer with the links here before hitting the <b>Go live</b> button."        
     },
     {
