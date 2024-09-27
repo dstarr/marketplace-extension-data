@@ -28,12 +28,12 @@
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
       "content_type": "bubble",
-      "top": "0px",
-      "left": "5px",
+      "top": "-200px",
+      "left": "150px",
       "width": "150px",
       "color": "#69afe5",
       "jquery_selector": "button:has(span:contains('Go live'))",
-      "text": "Test purchasing your offer with the links here before hitting the Go live button TEST."        
+      "text": "Test purchasing your offer with the links here before hitting the Go live button."        
     },
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
