@@ -32,7 +32,7 @@
       "left": "5px",
       "width": "150px",
       "color": "#69afe5",
-      "jquery_selector": "button:has(> span:contains('Go live'))",
+      "jquery_selector": "button:has(span:contains('Go live'))",
       "text": "Test purchasing your offer with the links here before hitting the Go live button."        
     },
     {
