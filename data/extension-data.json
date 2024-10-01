@@ -10,13 +10,17 @@
         {
           "target_title": "Getting started with Partner Center.",
           "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/getting-started-with-partner-center-mp4"
+        },
+        {
+          "target_title": "Getting started with Partner Center.",
+          "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/getting-started-with-partner-center-mp4"
         }
       ]
     },
     {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_title": "Choose your offer type",
-        "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
+        "target_title": "Choose your offer type video",
+        "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/0.03-choose-offer-type.mp4",
         "jquery_selector": "lib-table-command-bar",
         "content_type": "modal",
         "text": "A process model to help you select the right offer type for your marketplace solution."
