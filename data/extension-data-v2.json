@@ -14,8 +14,12 @@
               "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/getting-started-with-partner-center-mp4"
             },
             {
-              "target_title": "Getting started with Partner Center.",
-              "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/getting-started-with-partner-center-mp4"
+              "target_title": "Learn all about Partner Center",
+              "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/partner-center/pc-general/"
+            },
+            {
+              "target_title": "Partner Center reporting and insights.",
+              "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/partner-center/pc-insights/"
             }
           ]
         }
@@ -65,16 +69,9 @@
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
       "content": [
-        {
-          "jquery_selector": "div.label[for='offerIdInput']",
-          "content_type": "bubble",
-          "left": "100",
-          "color": "#69afe5",
-          "text": "Note: Offer ID is unique and cannot be changed once set"
-        },
 				{
-          "target_title": "Choose your offer type video",
-          "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/0.03-choose-offer-type.mp4",
+          "target_title": "Choose your offer type graphic",
+          "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/0.03-choose-offer-type.png",
           "jquery_selector": "lib-table-command-bar",
           "content_type": "modal",
           "position": "relative",
@@ -102,27 +99,15 @@
         {
           "target_title": "Private offers overview",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/01.1-isv-private-offer-overview-2.mp4",
-          "jquery_selector": "lib-table-command-bar:contains('New private offer')",
-          "content_type": "modal",
-          "text": "Learn how private offers work for marketplace publishers offering them directly to customers."
-        }
-      ]
-    },
-    {
-      "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/private-offers",
-      "content": [
-        {
-          "target_title": "Private offers overview",
-          "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/01.1-isv-private-offer-overview-2.mp4",
-          "jquery_selector": "a[title='Customers']",
+          "jquery_selector": "li:contains('Customers')",
           "content_type": "modal",
           "text": "Learn how private offers work for marketplace publishers offering them directly to customers."
         },
 				{
           "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/home_workspace_marketplace_offers.mp3",
-          "target_title": "Sample audio 3",
+          "target_title": "All about private offers",
           "content_type": "audio",
-          "jquery_selector": "a[href='/en-us/dashboard/commercial-marketplace/private-offers']"
+          "jquery_selector": "he-task-item:contains('Private offers')"
         }
       ]
     }
