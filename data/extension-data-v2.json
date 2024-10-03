@@ -5,20 +5,20 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
       "content": [
         {
-          "title": "Watch now",
+          "title": "New to Partner Center?",
           "jquery_selector": "#homeQuickStartCardsHeader",
           "content_type": "hint",
           "items": [
             {
-              "target_title": "Getting started with Partner Center.",
+              "target_title": "<b>Watch</b>: Getting started with Partner Center.",
               "target_url": "https://partner.microsoft.com/en-us/training/assets/detail/getting-started-with-partner-center-mp4"
             },
             {
-              "target_title": "Learn all about Partner Center",
+              "target_title": "Learn all about it here.",
               "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/partner-center/pc-general/"
             },
             {
-              "target_title": "Partner Center reporting and insights.",
+              "target_title": "Understand reporting and insights.",
               "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/partner-center/pc-insights/"
             }
           ]
@@ -51,7 +51,7 @@
           "left": "370px",
           "width": "300px",
           "color": "#fff",
-          "text": "<p>Want to publish your SaaS offer without writing any code? Try the SaaS Accelerator.</p>"
+          "text": "<p>Want to publish your SaaS offer without writing any code? Try the <b>SaaS Accelerator</b>.</p>"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
       "content": [
         {
-          "target_title": "Pricing and availability",
+          "target_title": "About the Preview audience",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "label:contains('Microsoft Entra or Microsoft Account email address')"
@@ -104,7 +104,7 @@
           "text": "Learn how private offers work for marketplace publishers offering them directly to customers."
         },
 				{
-          "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/home_workspace_marketplace_offers.mp3",
+          "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/home_workspace_marketplace_offers.mp3",
           "target_title": "All about private offers",
           "content_type": "audio",
           "jquery_selector": "he-task-item:contains('Private offers')"
