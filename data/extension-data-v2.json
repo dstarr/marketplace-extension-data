@@ -38,12 +38,6 @@
           "jquery_selector": "mix-command-bar"
         },
         {
-          "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/Outro.mp4",
-          "target_title": "Sample video 1",
-          "content_type": "video",
-          "jquery_selector": "mix-command-bar"
-        },
-        {
           "target_url": "https://raw.githubusercontent.com/code4clouds/commercial-marketplace-extension/main/extension/media/home_workspace_marketplace_offers.mp3",
           "target_title": "Sample audio 3",
           "content_type": "audio",
