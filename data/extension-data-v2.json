@@ -132,7 +132,7 @@
 				},
 				{
 					"offer_type": "saas",
-					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Flat_rate_vs_Per_user.mp3",
+					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/home_workspace_marketplace_offers.mp3",
           "content_type": "audio",
           "jquery_selector": "h6:contains('Pricing model')"
 				},
