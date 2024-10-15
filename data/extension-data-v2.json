@@ -39,6 +39,14 @@
         },
 				{
 					"offer_type":"saas",
+					"target_title": "Creating plans in a SaaS offer",
+          "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plan-saas-offer#plans",
+          "content_type": "link",
+          "jquery_selector": "h2:contains('Marketplace Programs')"
+
+				},
+				{
+					"offer_type":"saas",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "h2:contains('Plan overview')"
