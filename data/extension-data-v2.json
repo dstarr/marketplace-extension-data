@@ -104,6 +104,12 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/private-offers",
       "content": [
         {
+					"target_title": "Creating Private Offers for customers",
+          "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/isv-customer",
+          "jquery_selector": "span:contains('Private offers')",
+          "content_type": "link"
+        },
+				{
           "target_title": "Private offers overview",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/01.1-isv-private-offer-overview-2.mp4",
           "jquery_selector": "li:contains('Customers')",
