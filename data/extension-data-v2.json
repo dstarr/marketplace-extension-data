@@ -68,8 +68,13 @@
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "div.harmony-command-bar"
-
-				}
+				},
+				{
+					"offer_type": "saas",
+          "content_type": "tooltip",
+          "jquery_selector": "span:contains('Technical configuration')",
+          "text": "This is a test for tooltips"
+        }
       ]
     },
     {
