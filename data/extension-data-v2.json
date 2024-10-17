@@ -29,20 +29,18 @@
       "content": [
         {
 					"offer_type": "saas",
-          "content_type": "bubble",
-          "top": "170px",
-          "left": "150px",
-          "width": "150px",
-          "color": "#fff",
+          "content_type": "tooltip",
           "jquery_selector": "button:has(span:contains('Go live'))",
-          "text": "⬅️ Test purchasing your offer with the links here before hitting the <b>Go live</b> button."
+          "text": "<p>Use the links provided to test your offer before selecting <b>Go live</b>.</p>",
+					"left": "157px",
+					"top": "inherit"
         },
 				{
 					"offer_type":"saas",
 					"target_title": "Creating plans in a SaaS offer",
           "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plan-saas-offer#plans",
           "content_type": "link",
-          "jquery_selector": "h2:contains('Marketplace Programs')"
+          "jquery_selector": "h2:contains('Plan overview')"
 
 				},
 				{
@@ -72,8 +70,10 @@
 				{
 					"offer_type": "saas",
           "content_type": "tooltip",
-          "jquery_selector": "span:contains('Technical configuration')",
-          "text": "This is a test for tooltips"
+          "jquery_selector": "button:contains('Review and publish')",
+          "text": "<p>This is a test for tooltips.</p><p><b>Using HTML</b></p>",
+					"left": "335px",
+					"top": "20px"
         }
       ]
     },
