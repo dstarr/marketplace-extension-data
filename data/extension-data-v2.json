@@ -27,8 +27,16 @@
     {
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
       "content": [
+				{
+					"offer_type": "AzureThirdPartyVirtualMachine",
+          "content_type": "tooltip",
+          "jquery_selector": "button:has(span:contains('Go live'))",
+          "text": "<p>Use the link provided to test your offer before selecting <b>Go live</b>.</p>",
+					"left": "157px",
+					"top": "inherit"
+        },
         {
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
           "content_type": "tooltip",
           "jquery_selector": "button:has(span:contains('Go live'))",
           "text": "<p>Use the links provided to test your offer before selecting <b>Go live</b>.</p>",
@@ -36,7 +44,7 @@
 					"top": "inherit"
         },
 				{
-					"offer_type":"saas",
+					"offer_type":"SoftwareAsAService",
 					"target_title": "Creating plans in a SaaS offer",
           "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plan-saas-offer#plans",
           "content_type": "link",
@@ -44,14 +52,14 @@
 
 				},
 				{
-					"offer_type":"saas",
+					"offer_type":"SoftwareAsAService",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "h2:contains('Plan overview')"
 
 				},
 				{
-					"offer_type":"saas",
+					"offer_type":"SoftwareAsAService",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "h2:contains('Marketplace Programs')"
@@ -62,13 +70,13 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
       "content": [
 				{
-					"offer_type":"saas",
+					"offer_type":"SoftwareAsAService",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "div.harmony-command-bar"
 				},
 				{
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
           "content_type": "tooltip",
           "jquery_selector": "button:contains('Review and publish')",
           "text": "<p>This is a test for tooltips.</p><p><b>Using HTML</b></p>",
@@ -96,7 +104,7 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/cosell",
 			"content": [
         {
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
           "target_title": "Marketplace incentive programs",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/02.1-marketplace-incentives.mp4",
           "jquery_selector": "a:contains('Learn more')",
@@ -133,7 +141,7 @@
 			"page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans",
 			"content":[
 				{
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
 					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "div.harmony-command-bar"
@@ -144,37 +152,37 @@
 			"page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/plans/*/availability",
 			"content":[
 				{
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
 					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Flat_rate_vs_Per_user.mp3",
           "content_type": "audio",
           "jquery_selector": "label he-text:contains('Markets')"
 				},
 				{
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
 					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/home_workspace_marketplace_offers.mp3",
           "content_type": "audio",
           "jquery_selector": "h6:contains('Pricing model')"
 				},
 				{
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
 					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "h6:contains('Marketplace Metering Service dimensions')"
 				},
 				{
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
 					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "label he-text:contains('Pricing data')"
 				},
 				{
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
 					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "label he-text:contains('Free Trial')"
 				},
 								{
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
 					"target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
           "jquery_selector": "label he-text:contains('Plan visibility')"
@@ -185,7 +193,7 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/availability",
       "content": [
         {
-					"offer_type": "saas",
+					"offer_type": "SoftwareAsAService",
           "target_title": "About the Preview audience",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/Preview Audience.mp3",
           "content_type": "audio",
