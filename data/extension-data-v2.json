@@ -28,10 +28,26 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
       "content": [
 				{
+					"offer_type": "AzureContainer",
+          "content_type": "tooltip",
+          "jquery_selector": "button:has(span:contains('Go live'))",
+          "text": "<p>Use the link provided to test your Container offer before selecting <b>Go live</b>.</p>",
+					"left": "157px",
+					"top": "inherit"
+        },
+        {
+					"offer_type": "AzureApplication",
+          "content_type": "tooltip",
+          "jquery_selector": "button:has(span:contains('Go live'))",
+          "text": "<p>Use the link provided to test your Azure Application offer before selecting <b>Go live</b>.</p>",
+					"left": "157px",
+					"top": "inherit"
+        },
+        {
 					"offer_type": "AzureThirdPartyVirtualMachine",
           "content_type": "tooltip",
           "jquery_selector": "button:has(span:contains('Go live'))",
-          "text": "<p>Use the link provided to test your offer before selecting <b>Go live</b>.</p>",
+          "text": "<p>Use the link provided to test your Virtual Machine offer before selecting <b>Go live</b>.</p>",
 					"left": "157px",
 					"top": "inherit"
         },
@@ -39,10 +55,26 @@
 					"offer_type": "SoftwareAsAService",
           "content_type": "tooltip",
           "jquery_selector": "button:has(span:contains('Go live'))",
-          "text": "<p>Use the links provided to test your offer before selecting <b>Go live</b>.</p>",
+          "text": "<p>Use the links provided to test your SaaS offer before selecting <b>Go live</b>.</p>",
 					"left": "157px",
 					"top": "inherit"
         },
+				{
+					"offer_type":"AzureApplication",
+					"target_title": "Creating plans in a SaaS offer",
+          "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plan-saas-offer#plans",
+          "content_type": "link",
+          "jquery_selector": "h2:contains('Plan overview')"
+
+				},
+				{
+					"offer_type":"AzureContainer",
+					"target_title": "Creating plans in a SaaS offer",
+          "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plan-saas-offer#plans",
+          "content_type": "link",
+          "jquery_selector": "h2:contains('Plan overview')"
+
+				},
 				{
 					"offer_type":"SoftwareAsAService",
 					"target_title": "Creating plans in a SaaS offer",
