@@ -28,6 +28,13 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/technicalconfiguration",
       "content": [
 				{
+					"target_title": "Visit a complete video course for developers building SaaS offers",
+          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/saas/dev/",
+          "jquery_selector": "a:contains('Learn more about integrating with the fulfillment APIs here.')",
+          "content_type": "link",
+					"offer_type":"SoftwareAsAService"
+        },				
+				{
           "top": "-5px",
           "left": "0px",
 					"offer_type":"SoftwareAsAService",
@@ -77,14 +84,14 @@
         },
 				{
 					"offer_type":"AzureApplication",
-					"target_title": "Creating plans in a SaaS offer",
+					"target_title": "Creating plans in an Azure Application offer",
           "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plan-saas-offer#plans",
           "content_type": "link",
           "jquery_selector": "h2:contains('Plan overview')"
 				},
 				{
 					"offer_type":"AzureContainer",
-					"target_title": "Creating plans in a SaaS offer",
+					"target_title": "Read about creating plans in a Container offer",
           "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/plan-saas-offer#plans",
           "content_type": "link",
           "jquery_selector": "h2:contains('Plan overview')"
@@ -148,21 +155,21 @@
       "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/private-offers",
       "content": [
         {
-					"target_title": "Creating Private Offers for customers",
-          "target_url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/isv-customer",
+					"target_title": "Visit a complete video course on Private Offers",
+          "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/partner-center/private-offers/",
           "jquery_selector": "span:contains('Private offers')",
           "content_type": "link"
         },
 				{
-          "target_title": "Private offers overview",
+					"target_title": "Watch an overview of Private Offers",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/01.1-isv-private-offer-overview-2.mp4",
           "jquery_selector": "li:contains('Customers')",
           "content_type": "modal",
           "text": "Learn how private offers work for marketplace publishers offering them directly to customers."
         },
 				{
+          "target_title": "Hear all about private offers",
           "target_url": "https://github.com/dstarr/marketplace-extension-data/raw/refs/heads/main/media/home_workspace_marketplace_offers.mp3",
-          "target_title": "All about private offers",
           "content_type": "audio",
           "jquery_selector": "he-task-item:contains('Private offers')"
         }
